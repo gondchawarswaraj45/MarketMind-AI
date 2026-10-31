@@ -12,54 +12,74 @@
 
 ---
 
-## 📸 Interface Showcase (All Pages Across Dark & Light Modes)
+## 📸 Complete 4K Ultra-HD Interface Showcase (All Engines & Views)
 
 ### 1. Engine 1: Product Intelligence & 5-Axis Spider Moat
-*Automated value proposition framing, 5-axis competitive defensibility analysis, customer persona synthesis, and commercial unit economics.*
+*Automated value proposition framing, 5-dimensional commercial strength radar, granular buyer personas, and unit economics.*
 
-| Dark Mode: Spider Moat & Fit Pentagon | Light Mode: Buyer Personas & Unit Economics |
+| Dark Mode: 5-Axis Spider Moat & Strategic Fit | Light Mode: Granular Buyer Personas (ICP DNA) |
 | :---: | :---: |
-| ![Spider Moat Pentagon](screenshots/01_product_intelligence_moat_dark.png) | ![Personas and Economics](screenshots/02_product_intelligence_personas_light.png) |
+| ![Spider Moat Radar](screenshots/01_product_intelligence_spider_moat_dark_4k.png) | ![Target Audience DNA](screenshots/02_product_intelligence_target_audience_light_4k.png) |
+
+| Dark Mode: Unit Economics & CAC/LTV Battlecards | Light Mode: Competitor Counter-Positioning Matrix |
+| :---: | :---: |
+| ![Unit Economics & Battlecards](screenshots/03_product_intelligence_unit_economics_dark_4k.png) | ![Competitor Win Matrix](screenshots/04_product_intelligence_competitor_matrix_light_4k.png) |
 
 ---
 
 ### 2. Engine 2: Buyer Discovery — Polar Signal Radar & Target Lock HUD
-*Real-time polar coordinate radar plotting prospective buyer accounts by intent distance (70%, 80%, 90% Hot Core), active target blip locks, and instant Quill executive outreach.*
+*Real-time polar coordinate radar plotting prospective buyer accounts by intent distance (70%, 85%, 95% Hot Core), active target blip locks, and instant Quill executive outreach.*
 
-| Dark Mode: Polar Coordinate Signal Radar | Light Mode: Sales & Retail Distribution Intel |
+| Dark Mode: Polar Coordinate Signal Radar | Light Mode: Polar Signal Radar Scope |
 | :---: | :---: |
-| ![Polar Signal Radar](screenshots/03_buyer_discovery_radar_dark.png) | ![Sales Distribution](screenshots/04_buyer_discovery_sales_light.png) |
+| ![Polar Signal Radar Dark](screenshots/05_buyer_discovery_signal_radar_dark_4k.png) | ![Polar Signal Radar Light](screenshots/06_buyer_discovery_signal_radar_light_4k.png) |
+
+| Light Mode: Sales & Retail Distribution Intel | Dark Mode: Signal Matrix & Real-Time Catalyst Stream |
+| :---: | :---: |
+| ![Sales & Distribution Intelligence](screenshots/07_buyer_discovery_sales_distribution_light_4k.png) | ![Signal Matrix & Timeline](screenshots/08_buyer_discovery_matrix_timeline_dark_4k.png) |
+
+| Light Mode: Urgency Matrix & Tiered Lead Scoring | Dark Mode: Decision-Maker Target Audience & ICP Deck |
+| :---: | :---: |
+| ![Urgency Matrix & Lead Tiers](screenshots/09_buyer_discovery_urgency_matrix_light_4k.png) | ![Target Audience ICP Deck](screenshots/10_buyer_discovery_target_audience_icp_dark_4k.png) |
+
+| Light Mode: Real-Time Webhook Dispatcher & Automations |
+| :---: |
+| ![Automations & CRM Dispatcher](screenshots/11_buyer_discovery_automations_crm_light_4k.png) |
 
 ---
 
-### 3. Engine 2: Buyer Discovery — Signal Matrix, Timeline & Urgency Tiers
-*Chronological radar telemetry tracking hiring triggers, inventory warehouse expansions, and RFP catalysts with verbatim public evidence.*
+### 3. Engine 3: Marketing Automation — Funnel & Outbound Playbooks
+*Full-cycle commercial conversion funnel mapping impressions to closed checkout orders with leak diagnoses, revenue forecasting, and multi-stage outbound campaigns.*
 
-| Dark Mode: Signal Matrix & Catalyst Timeline | Light Mode: Urgency Matrix & Tiered Leads |
+| Dark Mode: Full-Cycle Commercial Conversion Funnel | Light Mode: Commercial Conversion Funnel Stages |
 | :---: | :---: |
-| ![Signal Matrix and Timeline](screenshots/05_buyer_discovery_matrix_dark.png) | ![Urgency Matrix](screenshots/06_buyer_discovery_urgency_light.png) |
+| ![Conversion Funnel Dark](screenshots/12_marketing_automation_conversion_funnel_dark_4k.png) | ![Conversion Funnel Light](screenshots/13_marketing_automation_conversion_funnel_light_4k.png) |
+
+| Light Mode: Sales & Revenue Forecaster Simulator | Dark Mode: 3-Stage Outbound Playbooks & Authority Copy |
+| :---: | :---: |
+| ![Sales & Revenue Forecaster](screenshots/14_marketing_automation_sales_forecaster_light_4k.png) | ![Outbound Playbooks](screenshots/15_marketing_automation_campaign_playbooks_dark_4k.png) |
 
 ---
 
-### 4. Engine 3: Marketing Automation — Conversion Funnel & Campaign Assets
-*Dynamic conversion funnel simulator adjusting traffic, CTR, conversion rates, and ACV alongside 3-stage email sequences and viral LinkedIn playbooks.*
+### 4. Engine 4: Globe AI Marketing Copilot
+*Dedicated Chief Marketing Officer copilot with real-time web news grounding, algorithm-shift playbooks, and verified social signal feeds.*
 
-| Light Mode: Conversion Funnel & Simulator | Dark Mode: Multi-Stage Campaign Playbooks |
+| Dark Mode: Globe AI Agent Chat & Strategic Matrix | Light Mode: Platform Virality Radar & News Grounding |
 | :---: | :---: |
-| ![Conversion Funnel](screenshots/07_marketing_automation_funnel_light.png) | ![Campaign Playbooks](screenshots/08_marketing_automation_campaigns_dark.png) |
+| ![Globe AI Marketing Agent Chat](screenshots/16_globe_ai_agent_chat_dark_4k.png) | ![Virality Radar & Signals](screenshots/17_globe_ai_agent_virality_radar_light_4k.png) |
 
 ---
 
-### 5. Engine 4 & 5: Globe AI Growth Copilot & Enterprise Admin Hub
-*Dedicated growth strategist with real-time social algorithm shift intelligence, alongside the central company portfolio command center with global webhook dispatching.*
+### 5. Engine 5: Enterprise Admin Hub
+*Central portfolio command center for company products, global webhook endpoints, and Groq Neural Engine telemetry.*
 
-| Dark Mode: Globe AI Marketing Copilot | Light Mode: Enterprise Admin Hub & Webhooks |
+| Dark Mode: Enterprise Portfolio Command Center | Light Mode: System Telemetry & Portfolio Controls |
 | :---: | :---: |
-| ![Globe AI Agent Chat](screenshots/09_globe_ai_agent_chat_dark.png) | ![Enterprise Admin Hub](screenshots/10_enterprise_admin_hub_light.png) |
+| ![Admin Hub Dark](screenshots/18_enterprise_admin_hub_dark_4k.png) | ![Admin Hub Light](screenshots/19_enterprise_admin_hub_light_4k.png) |
 
 ---
 
-## ⚡ Key Architectural Capabilities
+## ⚡ Architecture & Growth Pipeline
 
 ```mermaid
 flowchart TD
@@ -98,36 +118,15 @@ flowchart TD
     ADM --> WH[CRM / Slack / Zapier / n8n]
 ```
 
-### 🎯 Five Integrated Engines
-1. **Product Intelligence Engine (`DESIGN`)**:
-   - 5-Axis Spider Moat visualization (Value Clarity, Pricing Power, Channel Fit, Velocity, Defensibility).
-   - Dynamic ICP and Customer Persona synthesis (seniority, operational friction, key conversion levers).
-   - Competitor positioning matrices with counter-positioning angles.
-2. **Buyer Discovery Engine (`STRATEGY`)**:
-   - Polar coordinate radar scope visualizing hot-core ($\ge 90\%$), warm-pipeline ($80\%-89\%$), and broad-market ($70\%-79\%$) buyer accounts.
-   - Live web signal scraping across hiring notices, vendor expansions, procurement RFPs, and executive migrations.
-   - Fact vs. Hypothesis governance: every signal cites verbatim text, source publication, and timestamp.
-3. **Marketing Automation Engine (`AUTOMATION`)**:
-   - Interactive conversion funnel adjusting traffic volume, CTR, conversion rates, and ACV.
-   - Automated 3-stage email sequences (Pain Hook, Proof Engine, Executive Ask).
-   - High-dwell-time LinkedIn authority posts, Twitter/X threads, and targeted ad copy.
-4. **Globe AI Growth Director (`COPILOT`)**:
-   - Real-time market news integration and social algorithm shift updates.
-   - Copywriting assistant, tactical guerrilla growth plays, and file attachment support.
-5. **Enterprise Admin Hub (`GOVERNANCE`)**:
-   - Central product portfolio management (add, edit, toggle, inspect company products).
-   - Global outbound webhook dispatching (Slack channels, Make, Zapier, n8n).
-   - System telemetry, Groq high-speed LLM monitoring, and CSV/JSON pipeline export.
-
 ---
 
 ## 🛠️ Technology Stack
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
-| **Frontend Framework** | React 19 + TypeScript | Componentized modern SPA architecture |
+| **Frontend Framework** | React 19 + TypeScript | High-performance componentized SPA architecture |
 | **Styling & Theme** | Tailwind CSS 3.4 | Smooth walled backgrounds, Cobalt & Slate palette (zero AI gradient cliches) |
-| **Motion & Icons** | Framer Motion & Lucide React | High-performance tactile transitions and iconography |
+| **Motion & Visuals** | Framer Motion & Lucide React | High-performance tactile transitions and iconography |
 | **Backend Framework** | Java 17+ / Spring Boot 3.3.5 | Robust enterprise RESTful micro-architecture |
 | **Security & Auth** | Spring Security 6 + JWT | Stateless token-based authentication with role verification |
 | **Database** | SQLite + Hibernate Community Dialect | Embedded zero-configuration transactional database |
