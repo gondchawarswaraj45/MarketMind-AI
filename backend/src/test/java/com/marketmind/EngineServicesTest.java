@@ -105,7 +105,7 @@ class EngineServicesTest {
     @Test
     void buyerDiscovery_ShouldCalculateRelevanceAndProduceGroundedSignals() {
         BuyerDiscoveryService service = new BuyerDiscoveryService(
-                searchRepository, productService, tavilyClient, aiServiceFactory
+                searchRepository, productService, tavilyClient
         );
 
         when(searchRepository.save(any(BuyerSearch.class))).thenAnswer(i -> {

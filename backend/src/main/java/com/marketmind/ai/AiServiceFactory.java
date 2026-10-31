@@ -22,6 +22,7 @@ public class AiServiceFactory {
         this.groqAiService = groqAiService;
         this.geminiAiService = geminiAiService;
         this.preferredProvider = preferredProvider != null ? preferredProvider.toLowerCase() : "groq";
+        log.info("Initialized AiServiceFactory with preferred AI provider: {}", this.preferredProvider);
     }
 
     public AiService getActiveAiService() {

@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.marketmind.ai.AiService;
 import com.marketmind.ai.AiServiceFactory;
-import com.marketmind.common.exception.ResourceNotFoundException;
 import com.marketmind.intelligence.dto.AnalysisResponseDto;
 import com.marketmind.intelligence.model.Competitor;
 import com.marketmind.intelligence.model.CustomerPersona;

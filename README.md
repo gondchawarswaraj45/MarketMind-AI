@@ -1,99 +1,188 @@
-# MarketMind 🚀
-> *"Understand Your Market. Discover Your Buyers. Win More Customers."*
+# MarketMind AI 🚀
+> **Enterprise Growth Intelligence & Autonomous Buyer Discovery Operating System**
 
-**MarketMind** is a universal, AI-powered marketing intelligence and buyer discovery SaaS platform that transforms raw product information into actionable go-to-market execution across three integrated engines: **Design**, **Strategy**, and **Automation**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-19.0-61dafb.svg)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-Zero--Config-003B57.svg)](https://www.sqlite.org/)
+
+**MarketMind AI** is an internal enterprise growth platform designed for single-company portfolio marketing. It bridges deep product analysis, live web buyer intent telemetry, and automated multi-channel campaign execution into a unified, walled operating system powered by **Globe AI**.
 
 ---
 
-## 🌟 The 3 Integrated Engines
+## 📸 Interface Showcase (Dark & Light Modes)
 
-### 1. DESIGN — See The Signal (Product Intelligence)
-* **AI-Powered Product Analysis**: Extracts core value propositions, target verticals, and market boundaries.
-* **Buyer Persona Generation**: Synthesizes granular personas including seniority, pain points, purchase triggers, and objections.
-* **Competitor Discovery & Battlecards**: Maps incumbents, strengths, vulnerabilities, and precise differentiation win angles.
-* **USP & Blue Ocean Opportunities**: Identifies untapped market white space and defensible moats.
-* **Interactive Intelligence Dashboard**: Visual readiness scores, persona inspection cards, and competitor comparison matrices.
+### 1. Polar Signal Radar & Live Buyer Discovery
+*Real-time polar coordinate radar plotting prospective buyer accounts by intent distance, featuring verified live-web catalyst triggers and instant executive outreach drafts.*
 
-### 2. STRATEGY — Find The Signal (Buyer Discovery)
-* **Tavily Web Intelligence Integration**: Researches authentic, public buying signals across the live web (job boards, news, forum queries, funding rounds, tech migrations).
-* **Transparent Lead Relevance Scoring**: 0–100 scoring based on ICP fit, signal recency, intent strength, and evidence credibility.
-* **Fact vs. Hypothesis Governance**: Explicit distinction between verified facts (backed by verbatim quotes, timestamps, and real source URLs) and AI-generated hypotheses.
-* **Decision-Maker Targeting**: Pinpoints relevant organizational roles (e.g. VP Growth, Head of Demand Gen).
+| Dark Mode (Tactical Radar Scope) | Light Mode (Sales & Distribution Intelligence) |
+| :---: | :---: |
+| ![Buyer Discovery Radar](screenshots/03_buyer_discovery_radar_dark.png) | ![Sales & Distribution Intel](screenshots/04_buyer_discovery_sales_light.png) |
 
-### 3. AUTOMATION — Signal To Inbox (Marketing Automation)
-* **Multi-Stage Email Drip Campaigns**: Generates structured cold & nurture sequences (relevance hooks, proof, CTAs).
-* **Viral LinkedIn Authority Content**: High-impact hooks, thought leadership frameworks, and engagement-optimized copy.
-* **Targeted Ad Copy**: Ready-to-deploy Google Search, LinkedIn Sponsored Content, and Meta ad copy.
-* **1:1 Signal-Grounded Outreach Drafts**: Hyper-personalized messages citing the exact verified public signal and source URL.
-* **Campaign Management & Export**: Save campaigns, delete, preview assets, and export playbooks to Markdown (`.md`).
+---
+
+### 2. Product Intelligence & 5-Axis Spider Moat
+*Automated value proposition framing, comprehensive customer persona generation, competitor battlecards, and defensible moat evaluation.*
+
+| Dark Mode (Spider Moat & Fit Assessment) | Light Mode (Executive Summary & Unit Economics) |
+| :---: | :---: |
+| ![Product Intelligence Dark](screenshots/01_product_intelligence_dark.png) | ![Product Intelligence Light](screenshots/02_product_intelligence_light.png) |
+
+---
+
+### 3. Marketing Automation & Revenue Forecasting
+*Dynamic conversion funnel simulator and algorithm-grounded multi-channel campaign playbooks for email, LinkedIn, and social distribution.*
+
+| Light Mode (Funnel & Revenue Simulator) | Dark Mode (Campaign Playbooks & Asset Review) |
+| :---: | :---: |
+| ![Marketing Automation Funnel](screenshots/06_marketing_automation_funnel_light.png) | ![Campaign Simulator](screenshots/07_marketing_automation_campaigns_dark.png) |
+
+---
+
+### 4. Globe AI Strategic Copilot & Enterprise Admin Hub
+*Dedicated growth strategist with real-time news grounding alongside the central company portfolio command hub.*
+
+| Dark Mode (Globe AI Marketing Agent) | Light Mode (Enterprise Admin Hub) |
+| :---: | :---: |
+| ![Globe AI Marketing Agent](screenshots/08_globe_ai_agent_chat_dark.png) | ![Enterprise Admin Hub](screenshots/09_enterprise_admin_hub_light.png) |
+
+---
+
+## ⚡ Key Architectural Capabilities
+
+```mermaid
+flowchart TD
+    subgraph Core ["Globe AI Enterprise Growth Core"]
+        P[Product Catalog & Value Framing]
+        DB[(Embedded SQLite DB)]
+    end
+
+    subgraph E1 ["Engine 1: Product Intelligence"]
+        P --> PI[Value Proposition Extraction]
+        PI --> SM[5-Axis Spider Moat Analysis]
+        PI --> CP[Granular Buyer Personas]
+        PI --> BC[Competitor Battlecards]
+    end
+
+    subgraph E2 ["Engine 2: Buyer Discovery Radar"]
+        P --> BD[Web Telemetry & Signal Aggregator]
+        BD --> PR[Polar Coordinate Signal Radar]
+        BD --> TL[Target Lock HUD & Buyer Scoring]
+        BD --> QO[1:1 Grounded Quill Outreach]
+    end
+
+    subgraph E3 ["Engine 3: Marketing Automation"]
+        P --> MA[Interactive Conversion Funnel]
+        MA --> RS[Sales Revenue Simulator]
+        MA --> CPB[Multi-Stage Outbound Playbooks]
+    end
+
+    subgraph Gov ["Governance & Orchestration"]
+        GAI[Globe AI Agent Copilot]
+        ADM[Admin Hub & Global Webhooks]
+    end
+
+    E1 & E2 & E3 --> GAI
+    E1 & E2 & E3 --> ADM
+    ADM --> WH[CRM / Slack / Zapier / n8n]
+```
+
+### 🎯 Five Integrated Engines
+1. **Product Intelligence Engine (`DESIGN`)**:
+   - 5-Axis Spider Moat visualization (Value Clarity, Pricing Power, Channel Fit, Velocity, Defensibility).
+   - Dynamic ICP and Customer Persona synthesis (seniority, operational friction, key conversion levers).
+   - Competitor positioning matrices with counter-positioning angles.
+2. **Buyer Discovery Engine (`STRATEGY`)**:
+   - Polar coordinate radar scope visualizing hot-core ($\ge 90\%$), warm-pipeline ($80\%-89\%$), and broad-market ($70\%-79\%$) buyer accounts.
+   - Live web signal scraping across hiring notices, vendor expansions, procurement RFPs, and executive migrations.
+   - Fact vs. Hypothesis governance: every signal cites verbatim text, source publication, and timestamp.
+3. **Marketing Automation Engine (`AUTOMATION`)**:
+   - Interactive conversion funnel adjusting traffic volume, CTR, conversion rates, and ACV.
+   - Automated 3-stage email sequences (Pain Hook, Proof Engine, Executive Ask).
+   - High-dwell-time LinkedIn authority posts, Twitter/X threads, and targeted ad copy.
+4. **Globe AI Growth Director (`COPILOT`)**:
+   - Real-time market news integration and social algorithm shift updates.
+   - Copywriting assistant, tactical guerrilla growth plays, and file attachment support.
+5. **Enterprise Admin Hub (`GOVERNANCE`)**:
+   - Central product portfolio management (add, edit, toggle, inspect company products).
+   - Global outbound webhook dispatching (Slack channels, Make, Zapier, n8n).
+   - System telemetry, Groq high-speed LLM monitoring, and CSV/JSON pipeline export.
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Layer | Technologies |
-| :--- | :--- |
-| **Frontend** | React 19, TypeScript, Vite, Tailwind CSS, Framer Motion, Lucide React, Recharts |
-| **Backend** | Java 17 / 21, Spring Boot 3.3.5, Spring Security, JWT, Spring Data JPA, Hibernate |
-| **Database** | SQLite (`sqlite-jdbc` + Hibernate Community SQLite Dialect) — zero external server required |
-| **AI & Web Research** | Groq API (`llama-3.3-70b-versatile`), Tavily Search API, Google Gemini (fallback) |
-| **API Documentation**| Swagger / OpenAPI 3 (`/swagger-ui.html`) |
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend Framework** | React 19 + TypeScript | Componentized modern SPA architecture |
+| **Styling & Theme** | Tailwind CSS 3.4 | Smooth walled backgrounds, Cobalt & Slate palette (zero AI gradient cliches) |
+| **Motion & Icons** | Framer Motion & Lucide React | High-performance tactile transitions and iconography |
+| **Backend Framework** | Java 17+ / Spring Boot 3.3.5 | Robust enterprise RESTful micro-architecture |
+| **Security & Auth** | Spring Security 6 + JWT | Stateless token-based authentication with role verification |
+| **Database** | SQLite + Hibernate Community Dialect | Embedded zero-configuration transactional database |
+| **AI Orchestration** | High-Speed Groq LLM API (`gpt-oss-120b`) | Sub-second generative marketing intelligence and copy synthesis |
+| **Web Signal Telemetry**| Tavily Search API | Authentic, verified real-world market intelligence gathering |
+| **Documentation** | OpenAPI 3 / Swagger UI | Interactive API exploration at `/swagger-ui.html` |
 
 ---
 
-## ⚡ Quick Start
+## 🚀 Quick Start Guide
 
-### 1. Prerequisites
-* **Java 17+** (verified on Java 17 LTS)
-* **Maven 3.8+**
-* **Node.js 18+** & npm
+### Prerequisites
+- **Java 17 LTS or higher** (`java -version`)
+- **Maven 3.8+** (`mvn -v`)
+- **Node.js 18+ & npm** (`node -v`)
 
-### 2. Launch with One Click (Windows)
+### 1. Clone the Repository
+```bash
+git clone https://github.com/gondchawarswaraj45/MarketMind-AI.git
+cd MarketMind-AI
+```
+
+### 2. Configure Environment Variables
+Copy the template configuration file:
+```bash
+cp .env.example .env
+```
+Update `.env` with your desired configuration (API keys are kept strictly local and ignored by Git):
+```properties
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=openai/gpt-oss-120b
+SERVER_PORT=8080
+VITE_API_BASE_URL=http://localhost:8080/api/v1
+```
+
+### 3. Launch Services (Windows One-Click)
 Double-click `start.bat` or run:
 ```cmd
 start.bat
 ```
 
-Or start manually:
-#### Start Backend (Port 8080):
+### 4. Manual Startup
+#### Backend (Port 8080):
 ```bash
 cd backend
 mvn spring-boot:run
 ```
-*Swagger UI is available at:* `http://localhost:8080/swagger-ui.html`
+*API Swagger Documentation: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)*
 
-#### Start Frontend (Port 5173):
+#### Frontend (Port 5173):
 ```bash
 cd frontend
+npm install
 npm run dev
 ```
-*App is available at:* `http://localhost:5173`
+*Web Application: [http://localhost:5173](http://localhost:5173)*
 
 ---
 
-## 🔑 Environment Variables & API Keys (Optional)
-
-MarketMind includes intelligent baseline models so that the platform is **100% testable and functional immediately** even before API keys are added.
-
-To enable live LLM reasoning and real-time Tavily web searches, set the following environment variables or add them to your environment:
-* `GROQ_API_KEY`: Your Groq Cloud API key (uses fast `llama-3.3-70b-versatile`).
-* `TAVILY_API_KEY`: Your Tavily Search API key (for live web buying signal discovery).
-* `GEMINI_API_KEY`: (Optional) Google Gemini API key.
+## 🔒 Security & Privacy Notice
+- **No Sensitive Data Committed**: All API keys, production tokens, credentials, and local database files are excluded via `.gitignore`.
+- **Private Portfolio Isolation**: Designed specifically for internal corporate usage to safely market company products without leaking sensitive competitive IP.
 
 ---
 
-## 🧪 Testing
-
-Run backend unit and integration test suite:
-```bash
-cd backend
-mvn test
-```
-*All 7 unit and integration tests covering Authentication, Product Intelligence, Buyer Discovery, and Campaign Generation pass with 0 errors.*
-
-Build frontend production bundle:
-```bash
-cd frontend
-npm run build
-```
-
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).

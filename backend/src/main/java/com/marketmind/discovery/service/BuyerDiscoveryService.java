@@ -1,7 +1,5 @@
 package com.marketmind.discovery.service;
 
-import com.marketmind.ai.AiService;
-import com.marketmind.ai.AiServiceFactory;
 import com.marketmind.discovery.dto.DiscoveryResponseDto;
 import com.marketmind.discovery.model.BuyerSearch;
 import com.marketmind.discovery.model.BuyingSignal;
@@ -16,7 +14,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -27,18 +24,15 @@ public class BuyerDiscoveryService {
     private final BuyerSearchRepository searchRepository;
     private final ProductService productService;
     private final TavilySearchClient tavilyClient;
-    private final AiServiceFactory aiServiceFactory;
 
     public BuyerDiscoveryService(
             BuyerSearchRepository searchRepository,
             ProductService productService,
-            TavilySearchClient tavilyClient,
-            AiServiceFactory aiServiceFactory
+            TavilySearchClient tavilyClient
     ) {
         this.searchRepository = searchRepository;
         this.productService = productService;
         this.tavilyClient = tavilyClient;
-        this.aiServiceFactory = aiServiceFactory;
     }
 
     public List<DiscoveryResponseDto> getSearchHistory(String productId, String userId) {
