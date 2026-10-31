@@ -12,41 +12,50 @@
 
 ---
 
-## 📸 Interface Showcase (Dark & Light Modes)
+## 📸 Interface Showcase (All Pages Across Dark & Light Modes)
 
-### 1. Polar Signal Radar & Live Buyer Discovery
-*Real-time polar coordinate radar plotting prospective buyer accounts by intent distance, featuring verified live-web catalyst triggers and instant executive outreach drafts.*
+### 1. Engine 1: Product Intelligence & 5-Axis Spider Moat
+*Automated value proposition framing, 5-axis competitive defensibility analysis, customer persona synthesis, and commercial unit economics.*
 
-| Dark Mode (Tactical Radar Scope) | Light Mode (Sales & Distribution Intelligence) |
+| Dark Mode: Spider Moat & Fit Pentagon | Light Mode: Buyer Personas & Unit Economics |
 | :---: | :---: |
-| ![Buyer Discovery Radar](screenshots/03_buyer_discovery_radar_dark.png) | ![Sales & Distribution Intel](screenshots/04_buyer_discovery_sales_light.png) |
+| ![Spider Moat Pentagon](screenshots/01_product_intelligence_moat_dark.png) | ![Personas and Economics](screenshots/02_product_intelligence_personas_light.png) |
 
 ---
 
-### 2. Product Intelligence & 5-Axis Spider Moat
-*Automated value proposition framing, comprehensive customer persona generation, competitor battlecards, and defensible moat evaluation.*
+### 2. Engine 2: Buyer Discovery — Polar Signal Radar & Target Lock HUD
+*Real-time polar coordinate radar plotting prospective buyer accounts by intent distance (70%, 80%, 90% Hot Core), active target blip locks, and instant Quill executive outreach.*
 
-| Dark Mode (Spider Moat & Fit Assessment) | Light Mode (Executive Summary & Unit Economics) |
+| Dark Mode: Polar Coordinate Signal Radar | Light Mode: Sales & Retail Distribution Intel |
 | :---: | :---: |
-| ![Product Intelligence Dark](screenshots/01_product_intelligence_dark.png) | ![Product Intelligence Light](screenshots/02_product_intelligence_light.png) |
+| ![Polar Signal Radar](screenshots/03_buyer_discovery_radar_dark.png) | ![Sales Distribution](screenshots/04_buyer_discovery_sales_light.png) |
 
 ---
 
-### 3. Marketing Automation & Revenue Forecasting
-*Dynamic conversion funnel simulator and algorithm-grounded multi-channel campaign playbooks for email, LinkedIn, and social distribution.*
+### 3. Engine 2: Buyer Discovery — Signal Matrix, Timeline & Urgency Tiers
+*Chronological radar telemetry tracking hiring triggers, inventory warehouse expansions, and RFP catalysts with verbatim public evidence.*
 
-| Light Mode (Funnel & Revenue Simulator) | Dark Mode (Campaign Playbooks & Asset Review) |
+| Dark Mode: Signal Matrix & Catalyst Timeline | Light Mode: Urgency Matrix & Tiered Leads |
 | :---: | :---: |
-| ![Marketing Automation Funnel](screenshots/06_marketing_automation_funnel_light.png) | ![Campaign Simulator](screenshots/07_marketing_automation_campaigns_dark.png) |
+| ![Signal Matrix and Timeline](screenshots/05_buyer_discovery_matrix_dark.png) | ![Urgency Matrix](screenshots/06_buyer_discovery_urgency_light.png) |
 
 ---
 
-### 4. Globe AI Strategic Copilot & Enterprise Admin Hub
-*Dedicated growth strategist with real-time news grounding alongside the central company portfolio command hub.*
+### 4. Engine 3: Marketing Automation — Conversion Funnel & Campaign Assets
+*Dynamic conversion funnel simulator adjusting traffic, CTR, conversion rates, and ACV alongside 3-stage email sequences and viral LinkedIn playbooks.*
 
-| Dark Mode (Globe AI Marketing Agent) | Light Mode (Enterprise Admin Hub) |
+| Light Mode: Conversion Funnel & Simulator | Dark Mode: Multi-Stage Campaign Playbooks |
 | :---: | :---: |
-| ![Globe AI Marketing Agent](screenshots/08_globe_ai_agent_chat_dark.png) | ![Enterprise Admin Hub](screenshots/09_enterprise_admin_hub_light.png) |
+| ![Conversion Funnel](screenshots/07_marketing_automation_funnel_light.png) | ![Campaign Playbooks](screenshots/08_marketing_automation_campaigns_dark.png) |
+
+---
+
+### 5. Engine 4 & 5: Globe AI Growth Copilot & Enterprise Admin Hub
+*Dedicated growth strategist with real-time social algorithm shift intelligence, alongside the central company portfolio command center with global webhook dispatching.*
+
+| Dark Mode: Globe AI Marketing Copilot | Light Mode: Enterprise Admin Hub & Webhooks |
+| :---: | :---: |
+| ![Globe AI Agent Chat](screenshots/09_globe_ai_agent_chat_dark.png) | ![Enterprise Admin Hub](screenshots/10_enterprise_admin_hub_light.png) |
 
 ---
 
