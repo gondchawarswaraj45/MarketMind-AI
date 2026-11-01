@@ -1,14 +1,7 @@
 # MarketMind AI 🚀
 > **Enterprise Growth Intelligence & Autonomous Buyer Discovery Operating System**
 
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-19.0-61dafb.svg)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com/)
-[![SQLite](https://img.shields.io/badge/SQLite-Zero--Config-003B57.svg)](https://www.sqlite.org/)
-[![Groq AI](https://img.shields.io/badge/Groq%20LPU-Ultra--Low%20Latency-orange.svg)](https://groq.com/)
 
----
 
 ## Executive Overview
 
