@@ -1,7 +1,6 @@
 # MarketMind AI 🚀
 > **Enterprise Growth Intelligence & Autonomous Buyer Discovery Operating System**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-19.0-61dafb.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
@@ -99,16 +98,47 @@ MarketMind AI follows a modern, decoupled micro-architecture combining a high-pe
 
 ## 🛠️ Technology Stack
 
-| Layer | Technologies | Key Highlights |
+<div align="center">
+
+### Frontend & Client Presentation
+[![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript 5](https://img.shields.io/badge/TypeScript_5.0-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite_Build_Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+
+### Backend Micro-Services & Security
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.3.5-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Java 17](https://img.shields.io/badge/Java_17_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Spring Security](https://img.shields.io/badge/Spring_Security_6-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)](https://spring.io/projects/spring-security)
+[![JWT](https://img.shields.io/badge/JSON_Web_Tokens-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)](https://jwt.io/)
+[![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+
+### AI Inference & Real-Time Telemetry
+[![Groq LPU](https://img.shields.io/badge/Groq_LPU_Hardware-F55036?style=for-the-badge&logo=speedtest&logoColor=white)](https://groq.com/)
+[![OpenAI OSS](https://img.shields.io/badge/gpt--oss--120b_Model-412991?style=for-the-badge&logo=openai&logoColor=white)](https://huggingface.co/)
+[![Tavily Search](https://img.shields.io/badge/Tavily_AI_Search-00B4D8?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tavily.com/)
+[![OpenAPI Swagger](https://img.shields.io/badge/OpenAPI_3.0_Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
+
+### Embedded Database & Persistence
+[![SQLite](https://img.shields.io/badge/SQLite_3-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Hibernate](https://img.shields.io/badge/Hibernate_ORM_6-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/)
+[![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-data-jpa)
+
+</div>
+
+<br/>
+
+| Tier | Component | Purpose & Architectural Role |
 | :--- | :--- | :--- |
-| **Frontend Framework** | React 19, TypeScript, Vite | Sub-millisecond HMR, type-safe state architecture |
-| **UI & Styling** | Tailwind CSS 3.4, Lucide React, Framer Motion | Custom slate/cobalt palettes, tactile animations, responsive themes |
-| **Backend Framework** | Java 17+, Spring Boot 3.3.5 | Production-grade REST micro-services, declarative transactions |
-| **Security & Auth** | Spring Security 6, JJWT (JSON Web Token) | Stateless JWT authentication, CORS safeguards, BCrypt password hashing |
-| **Database & ORM** | SQLite, Spring Data JPA, Hibernate | Zero-configuration portable embedded storage with production schema migration |
-| **AI Inference** | Groq LPU Hardware Acceleration | Low-latency LLM synthesis (`gpt-oss-120b`, `llama-3.3-70b-versatile`) |
-| **Market Telemetry** | Tavily Search API | Real-time web signal gathering, news verification, and competitor monitoring |
-| **API Documentation** | OpenAPI 3.0, Swagger UI | Interactive REST endpoint documentation and testing suite |
+| **Client Presentation** | `React 19` + `TypeScript` + `Vite` | Zero-latency state hydration, modular widget architecture, and strict type contract enforcement. |
+| **Styling & Motion** | `Tailwind CSS 3.4` + `Framer Motion` | Precision tactile controls, smooth walled background styling, Cobalt/Slate palette, and fluid transitions. |
+| **Enterprise Backend** | `Java 17 LTS` + `Spring Boot 3.3.5` | Resilient micro-services engine with dependency injection, auto-configuration, and unified REST controllers. |
+| **Access Control & Auth** | `Spring Security 6` + `JJWT 0.11.5` | Stateless authentication, BCrypt cryptographic password hashing, role-based protection, and secure CORS filters. |
+| **AI Intelligence Engine** | `Groq LPU Acceleration` (`gpt-oss-120b`) | Ultra-low latency LLM inference producing sub-second market analysis, buyer profiles, and outbound copywriting. |
+| **Live Telemetry & Scout** | `Tavily AI Search Engine` | Verified real-time web crawling extracting corporate expansion signals, hiring announcements, and retailer moves. |
+| **Zero-Config Storage** | `SQLite` + `Hibernate Community Dialect` | Lightweight, embedded transactional database requiring zero external infrastructure setup or daemon overhead. |
+| **API Contract & Testing** | `SpringDoc OpenAPI 3` + `Swagger UI` | Interactive living API documentation and live endpoint runner hosted at `/swagger-ui.html`. |
 
 ---
 
@@ -189,8 +219,4 @@ npm run dev
 - **Walled Private Operating System**: Purpose-built for single-company portfolio growth without sharing data across external multi-tenant pools.
 - **Sanitized Logging**: All application logs redact authorization headers and proprietary marketing assets.
 
----
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
