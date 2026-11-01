@@ -1,8 +1,6 @@
 # MarketMind AI 🚀
 > **Enterprise Growth Intelligence & Autonomous Buyer Discovery Operating System**
 
-[![Architecture diagram of gondchawarswaraj45/marketmind-ai](https://gitdiagram.com/gondchawarswaraj45/marketmind-ai/diagram.png)](https://gitdiagram.com/gondchawarswaraj45/marketmind-ai?utm_source=readme&utm_medium=picture)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-19.0-61dafb.svg)](https://react.dev/)
@@ -34,59 +32,7 @@ MarketMind AI follows a modern, decoupled micro-architecture combining a high-pe
 
 ![MarketMind AI System Architecture](pictures/architecture.png)
 
-### Architectural Flow & Core Subsystems
-
-```mermaid
-flowchart TD
-    subgraph Client ["Client Presentation Layer (React 19 + TypeScript)"]
-        UI[App Shell & Layout]
-        CTX[Product Context Provider]
-        API_CLIENT[API Client: Axios + JWT Interceptor]
-        UI --> CTX
-        CTX --> API_CLIENT
-    end
-
-    subgraph Backend ["Enterprise Service Layer (Spring Boot 3.3.5)"]
-        SEC[Spring Security & JWT Filter]
-        AUTH_SVC[Auth & Identity Service]
-        PROD_SVC[Product Portfolio Service]
-        
-        subgraph Engines ["Growth Intelligence Engines"]
-            ENG_PI[Product Intelligence Engine]
-            ENG_BD[Buyer Discovery Radar Engine]
-            ENG_MA[Marketing Automation Engine]
-            ENG_COP[Globe AI Marketing Copilot]
-        end
-    end
-
-    subgraph InferenceTelemetry ["AI Inference & Market Telemetry"]
-        AI_FACTORY[AI Service Factory]
-        GROQ[Groq LPU Engine]
-        TAVILY[Tavily Search Telemetry]
-    end
-
-    subgraph Persistence ["Persistence Layer"]
-        JPA[Spring Data JPA / Hibernate]
-        DB[(Embedded SQLite Database)]
-    end
-
-    API_CLIENT --> SEC
-    SEC --> AUTH_SVC
-    SEC --> PROD_SVC
-    SEC --> Engines
-
-    Engines --> AI_FACTORY
-    AI_FACTORY --> GROQ
-    ENG_BD --> TAVILY
-    ENG_COP --> TAVILY
-
-    AUTH_SVC --> JPA
-    PROD_SVC --> JPA
-    Engines --> JPA
-    JPA --> DB
-```
-
-### Core Architecture Layers:
+### Core Architectural Layers:
 
 - **Client Presentation Layer (`frontend/`)**: Built on React 19, Vite, and Tailwind CSS. Provides modular views for Product Intelligence, Buyer Discovery, Marketing Automation, Globe AI Agent, and Enterprise Administration with responsive dual-theme support.
 - **Enterprise Service Layer (`backend/`)**: Spring Boot REST micro-architecture enforcing strict type safety, centralized exception handling, and stateless JWT authentication.
